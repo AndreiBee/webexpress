@@ -1,0 +1,48 @@
+baseURL = ''
+languageCode = 'cz'
+defaultContentLanguage = "cz"
+title = 'WebExpress'
+theme = 'spectral'
+
+# Before start, please, see a very good exapmle on: https://git.sbruder.de/kegelschiene/site
+
+[params]
+fancytitle = '<img height="128" src="/images/logo.png" alt="Logo"/><br />WebExpress'
+copyright = "WebExpress Studio"
+startbuttonLink = "#contact"
+
+[languages.cz]
+languageName = "Czech"
+
+[languages.cz.params]
+description = 'Tvorba webových stránek pod klíč'
+startbuttontext = "Kontaktujte nás"
+
+# menu
+## czech
+
+[[languages.cz.params.menu.main]]
+url = '/'
+title = "Domu"
+
+[[languages.cz.params.menu.main]]
+url = '/cz/pricing/'
+title = "Ceník"
+
+[[languages.cz.params.menu.main]]
+url = '/cz/portfolio/ https://gallery.kegelschiene.net/'
+title = "Portfolio"
+
+# contact
+[languages.cz.params.contact]
+enable = true
+title = "Kontaktujte nás"
+phone = "+420 773 972 894"
+email = "webexpress@seznam.cz"
+body = 'Kontaktujte nás pro zpracování detailnější cenové nabídky.'
+address = "Ingolf Banecke-Jakobshagen<br />Wallmersbach 107<br />Praha<br />Česká republika"
+subject = "Neue Anfrage von kegelschiene.net"
+formspree_form_id = "mbjvvndw"
+
+[languages.cz.params.i18n]
+email = "12313"
