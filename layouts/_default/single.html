@@ -1,0 +1,54 @@
+
+{{ partial "header.html" . }}
+<article id="main">
+  <header {{ with .Params.image }}style="background-image: url('{{ . }}')"{{ end }}>
+    <h2>{{ .Title }}</h2>
+    {{ with .Params.subtitle }}
+    <p>{{ . }}</p>
+    {{ end }}
+	</header>
+  <body> 
+    <!-- <section class="wrapper style5"> -->
+      <!-- {{ .Content }} -->
+
+    <!-- </section> -->
+  </body>
+	<section class="wrapper style5">
+		<div class="inner">
+      <div class="columns">
+        <ul class="price">
+          <li class="header" style="background-color: rgb(40, 186, 40);">Basic</li>
+          <li>Rychlý Start Online<br><div class="line-info">Získejte webovou přítomnost<br>rychle a efektivně<div></li>
+          <li>Jednoduchá Správa Obsahu<br><div class="line-info">Snadné upravování<br>a aktualizace obsahu bez obtíží<div></li>
+          <li>Responzivní Design<br><div class="line-info">Moderní a responzivní web<br>pro všechna zařízení<div></li>
+          <li>do <b>3</b> podstránek</li>
+          <li class="grey">od <b>3.990</b>,- Kč</li>
+        </ul>
+      </div> 
+      <div class="columns">
+        <ul class="price">
+          <li class="header" style="background-color:violet">Premium</li>
+          <li>Vlastní Grafický Design<br><div class="line-info">Unikátní design<br>podle vaší firemní identity<div></li>
+          <li>SEO Optimalizace<br><div class="line-info">Zvýšení viditelnosti na vyhledávačích<br>pro lepší dosah<div></li>
+          <li>Rozšířená Funkcionalita<br><div class="line-info">Přidání formulářů, galerií<br>a dalších interaktivních prvků<div></li>
+          <li>Bezpečnostní Záruka<br><div class="line-info">Základní zabezpečení webu<br>pro ochranu před hrozbami<div></li>
+          <li>do <b>5</b> podstránek</li>
+          <li class="grey">od <b>6.500</b>,- Kč</li>
+        </ul>
+      </div> 
+      <div class="columns">
+        <ul class="price">
+          <li class="header" style="background-color: gold;">Ultimate</li>
+          <li>Exkluzivní VIP Podpora<br><div class="line-info">Prioritní<br>a rychlá podpora 24/7<div></li>
+          <li>Profesionální Fotografie<br><div class="line-info">Oslnivé vizuální prvky<br>s profesionálními fotografiemi<div></li>
+          <li>Pokročilá Analýza Návštěvnosti<br><div class="line-info">Komplexní sledování výkonu<br>a chování návštěvníků<div></li>
+          <li>Unikátní Interaktivní Prvky<br><div class="line-info">Vytvoření speciálních prvků<br>pro maximální interaktivitu<div></li>
+          <li>do <b>10</b> podstránek</li>
+          <li class="grey">od <b>10.000</b>,- Kč</li>
+        </ul>
+      </div> 
+      {{ .Content }}
+		</div>
+	</section>
+</article>
+{{ partial "footer.html" . }}
