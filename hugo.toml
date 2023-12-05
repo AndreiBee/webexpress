@@ -30,8 +30,36 @@ url = '/cz/pricing/'
 title = "Ceník"
 
 [[languages.cz.params.menu.main]]
-url = '/cz/portfolio/ https://gallery.kegelschiene.net/'
-title = "Portfolio"
+url = '#contact'
+title = "Kontakt"
+
+## english
+
+[languages.cz.three]
+enable = true
+title = 'Expresní tvorba webových stránek'
+body = 'Samotnou tvorbu webových stránek rozdělujeme na několik důležitých kroků'
+
+[[languages.cz.three.feature]]
+icon = "/images/target.png"
+title = "Definování Cílů<br>a Cílové Skupiny"
+body = 'Prvním krokem je jasně definovat cíle webové stránky a identifikovat cílovou skupinu uživatelů. To zahrnuje stanovení hlavních účelů stránky, například prezentace produktů, poskytování informací nebo interakce s návštěvníky. Identifikace cílové skupiny je klíčová pro design a obsah stránky, aby co nejlépe odpovídaly potřebám uživatelů.'
+
+[[languages.cz.three.feature]]
+icon = "/images/information_architecture.png"
+title = "Vytvoření Informační Architektury"
+body = 'Na základě definovaných cílů a cílové skupiny je nutné vytvořit strukturu stránek, nazývanou informační architektura. To zahrnuje rozdělení obsahu do logických kategorií a vytvoření navigačního systému, který umožňuje snadný přístup k relevantním informacím. Správně navržená informační architektura usnadňuje uživatelům orientaci na stránkách.'
+
+[[languages.cz.three.feature]]
+icon = "/images/visualization.png"
+title = "Vizuální Návrh a Uživatelské Rozhraní"
+body = "Následujícím krokem je vytvoření vizuálního návrhu stránky a designu uživatelského rozhraní (UI). To zahrnuje volbu barev, fontů, grafiky a celkového vzhledu stránky. Cílem je vytvořit přitažlivý, intuitivní a konzistentní design, který podporuje uživatelskou interakci. Uživatelské rozhraní by mělo být přizpůsobeno tak, aby poskytovalo příjemnou a efektivní uživatelskou zkušenost."
+
+[[languages.cz.three.feature]]
+icon = "/images/research_and_development.png"
+title = "Vývoj a Testování"
+body = "Po dokončení návrhu přichází na řadu samotný vývoj webové stránky. Programátoři implementují navržené prvky, integrují funkcionalitu a optimalizují stránky pro různá zařízení. Je důležité průběžně testovat stránky na různých prohlížečích a zařízeních, abychom zajistili konzistentní výkon a správnou funkci. Testování zahrnuje i ověření, zda stránky splňují stanovené cíle a jsou připraveny pro veřejné uvedení."
+
 
 # contact
 [languages.cz.params.contact]
@@ -39,9 +67,9 @@ enable = true
 title = "Kontaktujte nás"
 phone = "+420 773 972 894"
 email = "webexpress@seznam.cz"
-body = 'Kontaktujte nás pro zpracování detailnější cenové nabídky.'
-address = "Ingolf Banecke-Jakobshagen<br />Wallmersbach 107<br />Praha<br />Česká republika"
-subject = "Neue Anfrage von kegelschiene.net"
+body = 'Napište si o více informací'
+address = "Praha<br />Česká republika"
+subject = "webexpress.pro"
 formspree_form_id = "mbjvvndw"
 
 [languages.cz.params.i18n]
