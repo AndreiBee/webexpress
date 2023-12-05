@@ -10,6 +10,7 @@ theme = 'spectral'
 fancytitle = '<img height="128" src="/images/logo.png" alt="Logo"/><br />WebExpress'
 copyright = "WebExpress Studio"
 startbuttonLink = "#contact"
+description = '<img height="128" src="/images/index_header_logo.jpg" alt="Logo"/><br />WebExpress'
 
 [languages.cz]
 languageName = "Czech"
