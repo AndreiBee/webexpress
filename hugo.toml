@@ -20,8 +20,6 @@ description = 'Tvorba webových stránek pod klíč'
 startbuttontext = "Kontaktujte nás"
 
 # menu
-## czech
-
 [[languages.cz.params.menu.main]]
 url = '/'
 title = "Domu"
@@ -34,8 +32,32 @@ title = "Ceník"
 url = '#contact'
 title = "Kontakt"
 
-## english
+# Two 
+[languages.cz.two]
+enable = true
 
+[[languages.cz.two.section]]
+img = "images/two_1.png"
+title = 'Rychlost a Efektivita'
+body = 'Naše firma, WebExpress, se specializuje na rychlou tvorbu webových stránek. S využitím moderních nástrojů a metodik zkracujeme čas potřebný k vývoji, což znamená, že zákazníci dostanou své webové stránky rychleji než u konkurence. Naše efektivní pracovní postupy a zkušený tým umožňují zákazníkům dostat své webové stránky do provozu co nejdříve.'
+
+[[languages.cz.two.section]]
+img = "images/two_2.png"
+title = 'Profesionální Design a Funkcionality'
+body = 'WebExpress klade důraz na profesionální design a funkcionality webových stránek. Naši designéři pracují s každým zákazníkem individuálně, aby porozuměli jejich potřebám a vytvořili unikátní design odpovídající jejich brandu. Současně se zaměřujeme na uživatelsky přívětivé rozhraní a moderní funkce, aby zákazníci poskytli svým návštěvníkům optimální uživatelský zážitek.'
+
+[[languages.cz.two.section]]
+img = "images/two_3.png"
+title = 'Flexibilita a Personalizace'
+body = 'Jsme hrdí na flexibilitu naší nabídky. Každý zákazník má odlišné požadavky, a proto přistupujeme k každému projektu individuálně. Naše tým je otevřený výzvám a je schopen přizpůsobit se různým požadavkům zákazníků. Poskytujeme také možnost personalizace, což znamená, že zákazníci mohou mít webové stránky přesně podle svých představ.'
+
+[[languages.cz.two.section]]
+img = "images/two_4.png"
+title = 'Odborná Podpora a Dlouhodobé Partnerství'
+body = 'Náš vztah se zákazníky nekončí dokončením projektu. WebExpress nabízí odbornou podporu a udržuje dlouhodobá partnerství se zákazníky. Poskytujeme školení, aktualizace a údržbu, abychom zajistili, že webové stránky našich zákazníků zůstanou aktuální a funkční i v budoucnosti. Naše spokojenost zákazníků je pro nás prioritou.'
+
+
+# Three
 [languages.cz.three]
 enable = true
 title = 'Expresní tvorba webových stránek'
