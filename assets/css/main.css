@@ -284,9 +284,20 @@ body {
   border-radius: 35px;
 }
 
-.price.best-value {
-  background-color: #bc52a118;
-  border-color: #bc52a1;
+.price.one {
+  background: linear-gradient(180deg, rgba(0,255,108,0.6) 0%, rgba(0,248,255,0.5) 100%);
+  /* background: linear-gradient(180deg, rgba(0,255,176,0.8) 0%, rgba(0,55,255,0.5) 100%); */
+  /* border-color: #52bc6b; */
+}
+
+.price.two {
+  background: linear-gradient(180deg, rgba(0,188,255,0.6) 0%, rgba(0,55,255,0.5) 100%);
+  /* border-color: rgba(0,188,255); */
+}
+
+.price.three {
+  background: linear-gradient(180deg, rgba(255,0,154,0.6) 0%, rgba(0,55,255,0.5) 100%);
+  /* border-color: #52bc6b; */
 }
 
 /* Add shadows on hover */
@@ -296,8 +307,8 @@ body {
 
 /* Pricing header */
 .price .header {
-  background-color: #111;
-  border-radius: 35px;
+  /* background-color: #111; */
+  /* border-radius: 35px; */
   margin: 5px;
   color: rgb(0, 0, 0);
   font-size: 30px;
@@ -318,7 +329,7 @@ body {
 
 /* Grey list item */
 .price .grey {
-  background-color: #eee;
+  /* background-color: #eee; */
   /* font-weight: bold; */
   font-size: 20px;
 
