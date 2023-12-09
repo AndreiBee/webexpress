@@ -1,0 +1,25 @@
+{{ partial "header.html" . }}
+<article id="main">
+  <header {{ with .Params.image }}style="background-image: url('{{ . }}')"{{ end }}>
+    <h2>{{ .Title }}</h2>
+    {{ with .Params.subtitle }}
+    <p>{{ . }}</p>
+    {{ end }}
+	</header>
+  <body> 
+    <!-- <section class="wrapper style5"> -->
+      <!-- {{ .Content }} -->
+
+    <!-- </section> -->
+  </body>
+	<section class="wrapper style5">
+		<div class="inner">
+      
+      <div>
+        Nejprve si vyberte jednu ze <a href="/cz/pricing">tři variant webů</a><br><br>
+      </div>
+    {{ .Content }}
+		</div>
+	</section>
+</article>
+{{ partial "footer.html" . }}

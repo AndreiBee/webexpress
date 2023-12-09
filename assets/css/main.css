@@ -123,7 +123,9 @@ blockquote:before, blockquote:after, q:before, q:after {
 }
 
 body {
-  font-family: "Lato", sans-serif;
+  /* font-family: "Lato", sans-serif; */
+  /* font-family: "DM Sans", sans-serif; */
+  font-family: "Helvetica", sans-serif;
   font-weight: 400;
   line-height: 1.7;
   color: #fff;
@@ -268,6 +270,8 @@ body {
   padding: 8px;
 }
 
+
+
 /* Style the list */
 .price {
   list-style-type: none;
@@ -276,6 +280,13 @@ body {
   padding: 0;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+  font-family: "Helvetica", sans-serif;
+  border-radius: 35px;
+}
+
+.price.best-value {
+  background-color: #bc52a118;
+  border-color: #bc52a1;
 }
 
 /* Add shadows on hover */
@@ -286,8 +297,10 @@ body {
 /* Pricing header */
 .price .header {
   background-color: #111;
+  border-radius: 35px;
+  margin: 5px;
   color: rgb(0, 0, 0);
-  font-size: 25px;
+  font-size: 30px;
   font-weight: bold;
 }
 
@@ -308,6 +321,9 @@ body {
   background-color: #eee;
   /* font-weight: bold; */
   font-size: 20px;
+
+  border-bottom-left-radius: 35px;
+  border-bottom-right-radius: 35px;
 }
 
 /* Sale list item */
@@ -318,13 +334,23 @@ body {
 /* Save list item */
 .price .grey .sale .save {
   font-size: 14px;
-  background-color: #ebe4ff;
   display: inline-block;
   padding-left: 10px;
   padding-right: 10px;
   border-radius: 20px;
-  color: #5025d1;
   font-weight: bold;
+  color: #d63163;
+  background-color: #ffe8ef;
+}
+
+/* Best-choice list item */
+.price .grey .sale .save.best-choice {
+  color: #5025d1;
+  background-color: #ebe4ff;
+}
+
+/* Bottom-text list item */
+.bottom-text {
 }
 
 /* The "Sign Up" button */

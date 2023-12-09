@@ -25,8 +25,12 @@ url = '/'
 title = "Domu"
 
 [[languages.cz.params.menu.main]]
-url = '/cz/pricing/'
+url = '/cz/pricing'
 title = "Ceník"
+
+[[languages.cz.params.menu.main]]
+url = '/cz/instructions/'
+title = "Objednání služby"
 
 [[languages.cz.params.menu.main]]
 url = '#contact'

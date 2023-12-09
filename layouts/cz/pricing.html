@@ -1,4 +1,3 @@
-
 {{ partial "header.html" . }}
 <article id="main">
   <header {{ with .Params.image }}style="background-image: url('{{ . }}')"{{ end }}>
@@ -15,6 +14,11 @@
   </body>
 	<section class="wrapper style5">
 		<div class="inner">
+      
+      <div>
+        Vyberte si jednu ze tři variant webů: <br><br>
+      </div>
+      
       <div class="columns">
         <ul class="price">
           <li class="header" style="background-image: linear-gradient(to right top, #65fdd5, #00e4f6, #00c4ff, #009aff, #7e5cf9);">Basic</li>
@@ -33,7 +37,7 @@
         </ul>
       </div> 
       <div class="columns">
-        <ul class="price">
+        <ul class="price best-value">
           <li class="header" style="background-image: linear-gradient(to right top, #bc52a1, #f85d7f, #ff8852, #fcc12f, #c4f851);">Premium</li>
           <li>Vlastní Grafický Design<br><div class="line-info">Unikátní design<br>podle vaší firemní identity<div></li>
           <li>SEO Optimalizace<br><div class="line-info">Zvýšení viditelnosti na vyhledávačích<br>pro lepší dosah<div></li>
@@ -43,12 +47,11 @@
           <li class="grey">
             <span class="sale">
             <s><b>8.700</b> Kč</s>
-              <span class="save">Ušetřete 25%</span>
+              <span class="save best-choice">Ušetřete 25%</span>
             </span>
               <br>
             <span class="nominal-price">od <b>6.500</b> Kč</span>
           </li>
-          {{/*  <li class="grey">od <b>6.500</b>,- Kč</li>  */}}
         </ul>
       </div> 
       <div class="columns">
@@ -70,6 +73,9 @@
           {{/*  <li class="grey">od <b>10.000</b>,- Kč</li>  */}}
         </ul>
       </div> 
+      <div class="bottom-text">
+        *Skutečná cena se vždy odvíjí od <b>konkrétního požadavku klienta<b>
+      </div>
     {{ .Content }}
 		</div>
 	</section>
